@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "\"$CLAUDE_PROJECT_DIR\"/tools/test-if-changed.sh", "timeout": 600 }
+        ]
+      }
+    ]
+  }
+}

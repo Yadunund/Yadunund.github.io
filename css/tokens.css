@@ -1,0 +1,41 @@
+:root {
+  --canvas: #131313;
+  --slate: #2d2d2d;
+  --ink: #0b0b0b;
+  --paper: #f4ecd8;
+  --white: #ffffff;
+  --mint: #3cffd0;
+  --uv: #5200ff;
+  --yellow: #ffe600;
+  --red: #ff3b30;
+  --pink: #ff5fa2;
+  --blue: #2f6bff;
+  --orange: #ff8a00;
+
+  --font-display: "Bangers", "Impact", system-ui, sans-serif;
+  --font-body: "Space Grotesk", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  --border: 3px solid var(--ink);
+  --shadow: 6px 6px 0 var(--ink);
+  --shadow-lg: 10px 10px 0 var(--ink);
+  --gutter: 16px;
+  --max: 1200px;
+  --radius: 4px;
+  --topbar: 56px;
+
+  color-scheme: dark;
+}
+
+@media (min-width: 768px) {
+  :root { --gutter: 28px; }
+}
+
+[data-color="mint"]   { --fill: var(--mint);   --on-fill: var(--ink); }
+[data-color="uv"]     { --fill: var(--uv);     --on-fill: var(--white); }
+[data-color="yellow"] { --fill: var(--yellow); --on-fill: var(--ink); }
+[data-color="red"]    { --fill: var(--red);    --on-fill: var(--ink); }
+[data-color="pink"]   { --fill: var(--pink);   --on-fill: var(--ink); }
+[data-color="blue"]   { --fill: var(--blue);   --on-fill: var(--white); }
+[data-color="orange"] { --fill: var(--orange); --on-fill: var(--ink); }
+[data-color="paper"]  { --fill: var(--paper);  --on-fill: var(--ink); }
